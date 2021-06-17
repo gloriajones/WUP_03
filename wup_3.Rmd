@@ -40,6 +40,11 @@ After observing this data plot we may reject the null hypothesis. There is a dif
   
 ## Numerical Summarys 
 
+```{r}
+favstats(alcohol~Seat,data=davisdata)
+```
+The back shows it is different because the mean is 9.6, The middle row is 6.3, and the front row is the lowest with 1.8.
+  
 ## Inferential Tests
 
 ## Conclusions
