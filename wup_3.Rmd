@@ -47,6 +47,13 @@ The back shows it is different because the mean is 9.6, The middle row is 6.3, a
   
 ## Inferential Tests
 
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
+  
+We will reject the null hypothesis, but we will look for further clarification on which rows were different from the other rows.  
+  
 ## Conclusions
 
 
