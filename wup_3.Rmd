@@ -61,5 +61,6 @@ plot(TukeyHSD(model1))
 The Turkey box plot tells us that the front is in fact different from the back, and the middle is different from the back. However, there is a difference between the middle and the front.  
   
 ## Conclusions
-
-
+  
+The results of the categorical variable has more than 2 levels, we had to use anova, not a t-test. The anova showed there was a difference in alcohol consumption where the individuals were seated. We were still unsure about the results, so we had to do further investigation by using the turkey HSD. It showed that there was a  difference in the back row, and not much difference compared in the middle and front.
+  
