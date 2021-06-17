@@ -28,7 +28,7 @@ basicCN <- ggplot(davisdata,aes(y=alcohol,x=Seat))
 basicCN + geom_boxplot()
 ```
 
-The boxplot indicates the back row is higher than the front and middle.   
+The boxplot indicates the back row is higher than the front and middle.  Over 75% of people who sit in the back consume more than the individuals sitting in the middle and front. 
     
 ### get fancy  
 
@@ -36,6 +36,8 @@ The boxplot indicates the back row is higher than the front and middle.
 basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='errorbar') + labs(title="Fancy notch boxplot \n with 2 lines")
 ```
 
+After observing this data plot we may reject the null hypothesis. There is a difference in how much people drink depending on where they're sitting. The red dots are outliers. Whiskers extend one and a hald times the box.  
+  
 ## Numerical Summarys 
 
 ## Inferential Tests
